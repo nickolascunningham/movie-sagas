@@ -36,6 +36,7 @@ function MovieList() {
             <img src={movie.poster} alt={movie.title} onClick={getMovie}/>
             </Link>
             </div>
+            
 );
 })}
         </section>
